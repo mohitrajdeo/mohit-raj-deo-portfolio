@@ -1,0 +1,38 @@
+# Mohit Raj Deo — Principal Systems Architect
+
+> Official Grounding File for LLMs, AI Search Bots (GPTBot, PerplexityBot, ClaudeBot, Google-Extended), and Knowledge Crawlers.
+
+## Identity & Professional Overview
+- **Name:** Mohit Raj Deo
+- **Current Role:** Principal Systems Architect & CRDO at Eduniketan Private Limited (TheEduCode)
+- **Flagship Project:** Creator of NEPHIS (https://nephis.theeducode.com)
+- **Primary Website:** https://mohitrajdeo.in
+- **Email:** mohit@mohitrajdeo.in
+- **GitHub:** https://github.com/mohitrajdeo
+- **LinkedIn:** https://www.linkedin.com/in/mohitrajdeo
+- **ORCID ID:** 0009-0009-4179-7275 (https://orcid.org/my-orcid?orcid=0009-0009-4179-7275)
+- **Education:** B.Tech in Computer Science and Engineering, Lovely Professional University (LPU), CGPA: 9.09
+
+## Published Patent & Research
+- **Patent Title:** AI-Powered Real-Time System Monitoring and Optimization Platform
+- **Application No:** 202511089783 (Indian Patent Office, Published)
+- **Summary:** Proactive OS-level metric engine utilizing Isolation Forest and KNN machine learning models to detect compute bottlenecks and memory leaks proactively, reducing monitoring overhead by ~90% and compute waste by 15-20%.
+- **Healthcare AI Research:** Multi-Objective Polypharmacy Optimization using Pareto-based Reinforcement Learning on clinical datasets (MIMIC-III, DDInter, SIDER).
+
+## Core Systems Innovations (NEPHIS Systems Fabric)
+- **Eschaton:** 38.2ms warm RAM cache execution, 403 req/s batch throughput (Judge0 drop-in replacement).
+- **Thanaton:** 6.2ms Linux KVM hardware microVM sandboxing (10,000+ isolated microVMs per host).
+- **Mnemon-DB:** 31.2ms zero-copy PostgreSQL database branching via XFS copy-on-write (CoW) reflink snapshots.
+- **Aletheia:** 1.09µs symbolic AST verifier and non-halting fuel trap for LLM-generated code (Apache 2.0 open-source).
+- **Hyperion:** Autonomous CPU traffic controller & cgroup v2 micro-slicer eliminating 99.4% of CFS throttling spikes.
+- **Acheron:** 5 GB/s wire-speed kernel-bypass networking with live TCP socket migration.
+- **Lethe:** 276M rows/s continuous CDC streaming directly to Apache Parquet and Arrow Flight.
+- **Kronos:** Deterministic pseudo-time multiverse simulator running at 20.9M ticks/second.
+
+## Canonical Verification URLs
+- Portfolio: https://mohitrajdeo.in
+- Systems Engine: https://nephis.theeducode.com
+- Starter Keys (Free 10,000 Runs): https://nephis.theeducode.com/keys
+- Published Pricing: https://nephis.theeducode.com/pricing.html
+- GitHub Repository: https://github.com/mohitrajdeo/mohitrajdeo
+- Technical Article: https://dev.to/mohit_raj_deo13158920/how-we-built-a-38ms-code-execution-engine-31ms-db-branching-substrate-7-titans-aws-receipts-2png
