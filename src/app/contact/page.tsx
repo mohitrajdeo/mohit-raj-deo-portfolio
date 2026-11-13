@@ -79,12 +79,12 @@ export default function Contact() {
             </div>
           </GlassCard>
 
-          <a href="https://linkedin.com/in/mohit-raj-deo/" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/mohitrajdeo/" target="_blank" rel="noopener noreferrer">
              <GlassCard glowColor="cyan" hoverEffect className="h-full group flex flex-col items-center text-center p-6">
               <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
                 <Linkedin size={20} />
               </div>
-              <div className="text-white font-medium mb-1 truncate w-full text-sm">linkedin.com/in/mohit-raj-deo/</div>
+              <div className="text-white font-medium mb-1 truncate w-full text-sm">linkedin.com/in/mohitrajdeo/</div>
               <div className="text-xs text-white/50 flex items-center gap-1 group-hover:text-blue-400 transition-colors">
                 Opens current tab
               </div>

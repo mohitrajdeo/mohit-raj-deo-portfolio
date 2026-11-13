@@ -116,7 +116,7 @@ const structuredData = {
     "https://mohitrajdeo.in",
     "https://nephis.theeducode.com",
     "https://github.com/mohitrajdeo",
-    "https://www.linkedin.com/in/mohit-raj-deo/",
+    "https://www.linkedin.com/in/mohitrajdeo/",
     "https://dev.to/mohit_raj_deo13158920",
     "https://www.kaggle.com/mohitrajdeo",
     "https://leetcode.com/u/edgrfrtfqa/",
