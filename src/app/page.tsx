@@ -26,10 +26,10 @@ import {
 import { GlassCard } from "@/components/ui/GlassCard";
 
 const roles = [
-  "Principal Systems Architect",
-  "Creator of NEPHIS (nephis.theeducode.com)",
-  "Distributed Systems Engineer",
-  "Linux Kernel & MicroVM Virtualizer",
+  "Software & Systems Engineer",
+  "Principal Systems Architect (TheEduCode)",
+  "Distributed Systems & Cloud Engineer",
+  "Creator of Eschaton & Judge0 AWS Edition",
 ];
 
 export default function Home() {
@@ -266,10 +266,10 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">Cloud Architecture & DevOps</h3>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
-              I architect production infrastructure on AWS — auto-scaling groups, load balancers, container orchestration with EKS, and fully automated CI/CD pipelines. Zero-downtime deployments are my standard, not my goal.
+              I architect production infrastructure on AWS — auto-scaling groups, application load balancers, containerized workloads with Docker, and fully automated CI/CD pipelines. Zero-downtime deployments are my standard, not my goal.
             </p>
             <div className="flex flex-wrap gap-2 text-xs font-mono text-accent-amber/80">
-              <span className="px-2 py-1 bg-white/5 rounded-md">AWS</span>
+              <span className="px-2 py-1 bg-white/5 rounded-md">AWS EC2</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">Docker</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">Kubernetes</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">GitHub Actions</span>
@@ -282,11 +282,11 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-bold mb-3">Backend Engineering</h3>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
-              I build backend platforms from scratch — REST APIs, database architecture, storage abstraction layers, and authentication systems. I've replicated core Supabase functionality with custom infrastructure.
+              I build backend platforms from scratch — high-performance Go microservices, REST APIs, database architecture, storage abstraction layers, and authentication systems. I've replicated core Supabase functionality with custom infrastructure.
             </p>
             <div className="flex flex-wrap gap-2 text-xs font-mono text-accent-violet/80">
+              <span className="px-2 py-1 bg-white/5 rounded-md">Go</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">FastAPI</span>
-              <span className="px-2 py-1 bg-white/5 rounded-md">Flask</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">PostgreSQL</span>
               <span className="px-2 py-1 bg-white/5 rounded-md">REST APIs</span>
             </div>
@@ -330,7 +330,7 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 relative z-10">
                 <div>
                   <h2 className="text-2xl font-bold text-white/90 mb-2 font-heading">Eduniketan Private Limited (TheEduCode)</h2>
-                  <div className="text-lg text-white/70 font-medium mb-4">Software Engineering Intern</div>
+                  <div className="text-lg text-white/70 font-medium mb-4">Software Engineering</div>
                   <div className="flex flex-col sm:flex-row gap-4 text-xs font-mono text-white/50">
                     <span className="flex items-center gap-2">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -481,7 +481,7 @@ export default function Home() {
           <GlassCard glowColor="cyan" className="p-6">
             <h3 className="text-lg font-bold mb-6 flex items-center gap-2"><Code size={20} className="text-accent-cyan" /> Core</h3>
             <div className="space-y-4">
-              {[{n: "Python", v: "90%"}, {n: "Java", v: "70%"}, {n: "C++", v: "75%"}].map(l => (
+              {[{n: "Python", v: "90%"}, {n: "C++", v: "80%"}, {n: "JavaScript", v: "85%"}, {n: "Go", v: "75%"}].map(l => (
                 <div key={l.n}>
                   <div className="flex justify-between text-xs mb-1 font-mono"><span>{l.n}</span><span>{l.v}</span></div>
                   <div className="h-1 w-full bg-white/5 rounded-full"><div className="h-full bg-accent-cyan" style={{width: l.v}}></div></div>
@@ -494,7 +494,7 @@ export default function Home() {
           <GlassCard glowColor="violet" className="p-6">
              <h3 className="text-lg font-bold mb-6 flex items-center gap-2"><Server size={20} className="text-accent-violet" /> Backend</h3>
              <div className="flex flex-wrap gap-2 overflow-hidden max-h-40">
-                {['FastAPI', 'Flask', 'Redis', 'PostgreSQL', 'Microservices', 'Supabase', 'SSH'].map(s => (
+                {['Go (Golang)', 'FastAPI', 'Redis', 'PostgreSQL', 'Microservices', 'Supabase', 'SSH'].map(s => (
                   <span key={s} className="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono">{s}</span>
                 ))}
              </div>
@@ -504,7 +504,7 @@ export default function Home() {
           <GlassCard glowColor="amber" className="p-6">
              <h3 className="text-lg font-bold mb-6 flex items-center gap-2"><Cloud size={20} className="text-accent-amber" /> Cloud</h3>
              <div className="flex flex-wrap gap-2">
-                {['AWS (EC2, S3, RDS, EKS)', 'Docker', 'Kubernetes', 'CI/CD', 'ASG', 'ALB'].map(s => (
+                {['AWS (EC2, S3, RDS, ASG, ALB)', 'Docker', 'Kubernetes', 'CI/CD', 'Linux'].map(s => (
                   <span key={s} className="px-2 py-1 bg-accent-amber/5 border border-accent-amber/20 text-accent-amber/80 rounded text-[10px] font-mono">{s}</span>
                 ))}
              </div>

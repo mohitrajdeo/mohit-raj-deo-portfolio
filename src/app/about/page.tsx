@@ -12,7 +12,7 @@ export default function About() {
     { date: "Jul 2025", title: "Cloud Certifications (Oracle, AWS, NPTEL)", description: "Validated deep cloud architecture fundamentals with verified credentials." },
     { date: "Aug 2025", title: "Multi-Objective Polypharmacy Optimization Research", description: "Applied Pareto-based Reinforcement Learning across clinical datasets (MIMIC-III, DDInter, SIDER)." },
     { date: "Oct 2025", title: "Software Engineer @ Eduniketan (TheEduCode)", description: "Architected distributed code execution sandboxes, self-hosted backend storage (Aurora + B2), and automated CI/CD." },
-    { date: "Present", title: "Engineering EduLive Distributed Streaming Infrastructure", description: "Scaling LiveKit WebRTC media servers on AWS EKS with Kubernetes pod auto-scaling for 500+ streams." },
+    { date: "Present", title: "Engineering EduLive Distributed Streaming Infrastructure", description: "Scaling LiveKit WebRTC media servers on AWS EC2 with Auto Scaling Groups for 500+ concurrent streams." },
   ];
 
   return (

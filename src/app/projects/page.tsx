@@ -154,7 +154,7 @@ export default function Projects() {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          {/* Project: Distributed Code Sandbox */}
+          {/* Project: Eschaton */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -167,28 +167,68 @@ export default function Projects() {
                   <div className="p-2 rounded-lg bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/20">
                     <Terminal size={22} />
                   </div>
-                  <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded">TheEduCode Production</span>
+                  <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded">Go &amp; Linux Runtime</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-3 text-white">Distributed Code Execution Sandbox</h3>
+                <h3 className="text-2xl font-bold mb-3 text-white">Eschaton: High-Throughput Execution Engine</h3>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
-                  Engineered a fault-tolerant remote compilation and execution engine powered by Judge0 CE, Redis queueing, and AWS Auto Scaling Groups. Replaced single-server architecture to execute untrusted code in isolated, resource-constrained sandboxes.
+                  Engineered a high-performance code execution runner in Go designed for rapid, low-overhead evaluation of untrusted student programs. Features native Linux process isolation, robust worker pool orchestration, and sub-250ms cold execution latency.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">~40%</span>
-                    <p className="text-xs text-white/50">Execution Latency Drop</p>
+                    <span className="text-xl font-bold text-accent-cyan">&lt; 250ms</span>
+                    <p className="text-xs text-white/50">Cold Execution Latency</p>
                   </div>
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">2x</span>
-                    <p className="text-xs text-white/50">Concurrent User Capacity</p>
+                    <span className="text-xl font-bold text-accent-cyan">High</span>
+                    <p className="text-xs text-white/50">Concurrency Worker Pool</p>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40 pt-4 border-t border-white/10">
-                <span className="px-2 py-0.5 bg-black/40 rounded">Judge0 CE</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">Aurora PostgreSQL</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">Redis Queue</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">AWS ASG & ALB</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Go (Golang)</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Linux</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Process Sandboxing</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Concurrency</span>
+              </div>
+            </GlassCard>
+          </motion.div>
+
+          {/* Project: Judge0 Production AWS Edition */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <GlassCard glowColor="amber" hoverEffect className="p-8 h-full flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <div className="p-2 rounded-lg bg-accent-amber/10 text-accent-amber border border-accent-amber/20">
+                    <Server size={22} />
+                  </div>
+                  <span className="text-xs font-mono text-accent-amber bg-accent-amber/10 px-2 py-1 rounded">2,470+ Docker Pulls</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-white">Judge0 Production AWS &amp; MySQL Edition</h3>
+                <p className="text-white/70 text-sm leading-relaxed mb-6">
+                  Published custom distribution (<code>mrdeo123/judge0-extra-ce</code>) on Docker Hub with 2,470+ pulls. Rebuilt runtime images to embed MySQL JDBC connectors, modernized language toolchains, and deployed across AWS EC2 Auto Scaling with Redis queue decoupling.
+                </p>
+                <div className="grid grid-cols-2 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
+                  <div>
+                    <span className="text-xl font-bold text-accent-amber">2,470+</span>
+                    <p className="text-xs text-white/50">Verified Docker Pulls</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-amber">~40%</span>
+                    <p className="text-xs text-white/50">Latency Reduction</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40 pt-4 border-t border-white/10">
+                <span className="px-2 py-0.5 bg-black/40 rounded">Docker</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">AWS EC2</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Redis</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">MySQL JDBC</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">ASG &amp; ALB</span>
               </div>
             </GlassCard>
           </motion.div>
@@ -198,7 +238,8 @@ export default function Projects() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="col-span-1 md:col-span-2"
           >
             <GlassCard glowColor="violet" hoverEffect className="p-8 h-full flex flex-col justify-between">
               <div>
@@ -208,18 +249,26 @@ export default function Projects() {
                   </div>
                   <span className="text-xs font-mono text-accent-violet bg-accent-violet/10 px-2 py-1 rounded">Cloud Cost Optimization</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-3 text-white">Self-Hosted Backend & Storage Platform</h3>
+                <h3 className="text-2xl font-bold mb-3 text-white">Self-Hosted Backend &amp; Storage Platform</h3>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
                   Architected a self-hosted backend platform eliminating cloud vendor lock-in. Routed Supabase PostgREST workloads into Amazon Aurora and migrated unstructured asset storage to Backblaze B2 via secure SSH tunneling with 100% API compatibility.
                 </p>
-                <div className="grid grid-cols-2 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
                   <div>
                     <span className="text-xl font-bold text-accent-violet">~60%</span>
                     <p className="text-xs text-white/50">Cloud Storage Savings</p>
                   </div>
                   <div>
                     <span className="text-xl font-bold text-accent-violet">100%</span>
-                    <p className="text-xs text-white/50">Zero Vendor Lock-in</p>
+                    <p className="text-xs text-white/50">API Compatibility</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-violet">Zero</span>
+                    <p className="text-xs text-white/50">Vendor Lock-in</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-violet">Aurora</span>
+                    <p className="text-xs text-white/50">PostgreSQL Engine</p>
                   </div>
                 </div>
               </div>

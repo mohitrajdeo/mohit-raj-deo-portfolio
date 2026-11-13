@@ -202,7 +202,7 @@ export default function Experience() {
                   </div>
                   <div>
                     <h4 className="text-sm font-mono text-green-400/80 mb-2">/ What I'm Building</h4>
-                    <p className="text-sm text-white/70">Distributed LiveKit media servers deployed on AWS EKS (Kubernetes), with Backblaze B2 for recording storage and BunnyCDN + BlazingCDN for global content delivery with minimal latency.</p>
+                    <p className="text-sm text-white/70">Distributed LiveKit media servers deployed on AWS EC2 with Auto Scaling Groups, with Backblaze B2 for recording storage and Redis for state synchronization with minimal latency.</p>
                   </div>
                 </div>
                 <div className="flex flex-wrap items-center gap-6 mb-6 py-4 border-y border-white/5">
@@ -211,21 +211,21 @@ export default function Experience() {
                     <span className="text-xs text-white/50">projected capacity</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-2xl font-mono text-green-400 font-bold">Global</span>
-                    <span className="text-xs text-white/50">CDN delivery</span>
+                    <span className="text-2xl font-mono text-green-400 font-bold">Ultra-Low</span>
+                    <span className="text-xs text-white/50">WebRTC latency</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-2xl font-mono text-green-400 font-bold">Auto</span>
-                    <span className="text-xs text-white/50">scaling K8s pods</span>
+                    <span className="text-xs text-white/50">scaling compute</span>
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40">
                   <span className="px-2 py-1 bg-black/40 rounded">LiveKit</span>
-                  <span className="px-2 py-1 bg-black/40 rounded">AWS EKS</span>
-                  <span className="px-2 py-1 bg-black/40 rounded">Kubernetes</span>
-                  <span className="px-2 py-1 bg-black/40 rounded">BunnyCDN</span>
-                  <span className="px-2 py-1 bg-black/40 rounded">BlazingCDN</span>
+                  <span className="px-2 py-1 bg-black/40 rounded">AWS EC2</span>
+                  <span className="px-2 py-1 bg-black/40 rounded">Docker</span>
+                  <span className="px-2 py-1 bg-black/40 rounded">ASG &amp; ALB</span>
                   <span className="px-2 py-1 bg-black/40 rounded">Backblaze B2</span>
+                  <span className="px-2 py-1 bg-black/40 rounded">Redis</span>
                 </div>
               </div>
 

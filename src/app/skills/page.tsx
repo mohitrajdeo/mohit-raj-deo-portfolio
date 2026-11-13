@@ -65,11 +65,12 @@ export default function Skills() {
               <h3 className="text-xl font-bold mb-6 flex items-center gap-3">
                 <Code className="text-accent-cyan" /> Core Languages
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 {[
                   { name: "Python", val: 90, color: "bg-accent-cyan" },
-                  { name: "C++", val: 75, color: "bg-accent-violet" },
-                  { name: "Java", val: 65, color: "bg-accent-amber" },
+                  { name: "C++", val: 80, color: "bg-accent-violet" },
+                  { name: "JavaScript", val: 85, color: "bg-accent-amber" },
+                  { name: "Go (Golang)", val: 75, color: "bg-cyan-400" },
                 ].map((lang) => (
                   <div key={lang.name} className="bg-space-900 border border-white/10 rounded-lg p-5">
                     <div className="flex justify-between items-end mb-3">
@@ -101,7 +102,7 @@ export default function Skills() {
                   <Server className="text-accent-violet group-hover:animate-pulse" /> Backend & Systems
                 </h3>
                 <div className="flex flex-wrap gap-3 mb-6">
-                  {['FastAPI', 'Flask', 'REST APIs', 'Distributed Systems', 'System Design', 'Microservices', 'PostgreSQL'].map(skill => (
+                  {['Go (Golang)', 'FastAPI', 'REST APIs', 'Distributed Systems', 'Microservices', 'PostgreSQL', 'Linux'].map(skill => (
                     <span key={skill} className="px-3 py-1.5 bg-white/5 border border-white/10 hover:border-accent-violet/40 hover:bg-accent-violet/10 transition-colors rounded-md text-sm font-mono text-white/80">
                       {skill}
                     </span>
@@ -130,7 +131,7 @@ export default function Skills() {
                   </div>
                   <h4 className="text-sm font-bold text-white/80 mb-2">AWS Services</h4>
                   <div className="flex flex-wrap gap-2 group-hover:text-white/90 transition-colors">
-                    {['EC2', 'S3', 'RDS', 'EKS', 'ASG', 'ALB', 'CodeDeploy'].map(s => (
+                    {['EC2', 'S3', 'RDS', 'ASG', 'ALB', 'CodeDeploy'].map(s => (
                       <span key={s} className="text-xs font-mono bg-accent-amber/10 text-accent-amber/90 px-2 py-0.5 rounded border border-accent-amber/20 hover:scale-105 transition-transform cursor-help" title={`Used for ${s} workloads`}>{s}</span>
                     ))}
                   </div>
@@ -194,17 +195,15 @@ export default function Skills() {
             <motion.div variants={itemVariants}>
               <GlassCard glowColor="cyan" hoverEffect className="p-8">
                 <h3 className="text-xl font-bold mb-6 flex items-center gap-3">
-                  <Activity className="text-accent-cyan" /> Streaming & Infrastructure
+                  <Activity className="text-accent-cyan" /> Streaming &amp; Infrastructure
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 border border-accent-cyan/30 text-accent-cyan/90 bg-accent-cyan/5 rounded-full text-sm">LiveKit</span>
                   <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">Redis</span>
                   <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">Aurora PostgreSQL</span>
                   <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">PM2</span>
-                  <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">CDN Architecture</span>
                   <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">Backblaze B2</span>
-                  <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">BunnyCDN</span>
-                  <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">BlazingCDN</span>
+                  <span className="px-3 py-1 border border-white/10 text-white/70 bg-white/5 rounded-full text-sm">Linux</span>
                 </div>
               </GlassCard>
             </motion.div>
