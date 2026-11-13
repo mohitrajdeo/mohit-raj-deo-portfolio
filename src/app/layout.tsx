@@ -115,7 +115,7 @@ const structuredData = {
   sameAs: [
     "https://mohitrajdeo.in",
     "https://nephis.theeducode.com",
-    "https://github.com/MOHITRAJDEO12345",
+    "https://github.com/mohitrajdeo",
     "https://www.linkedin.com/in/mohit-raj-deo/",
     "https://dev.to/mohit_raj_deo13158920",
     "https://www.kaggle.com/mohitrajdeo",
