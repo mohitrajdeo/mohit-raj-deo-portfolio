@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://mohit-raj-deo-portfolio.vercel.app/sitemap.xml',
+    sitemap: 'https://mohitrajdeo.in/sitemap.xml',
   };
 }

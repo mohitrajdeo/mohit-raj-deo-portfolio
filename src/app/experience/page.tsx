@@ -49,8 +49,13 @@ export default function Experience() {
               <div className="absolute inset-0 grid-overlay opacity-20 pointer-events-none"></div>
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 relative z-10">
                 <div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-white/90 mb-2 font-heading">Eduniketan Private Limited (TheEduCode)</h2>
-                  <div className="text-xl text-white/70 font-medium mb-4">Software Engineering Intern</div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-white/90 mb-2 font-heading">NEPHIS &bull; Eduniketan Private Limited (TheEduCode)</h2>
+                  <div className="text-xl text-accent-cyan font-medium mb-4 flex items-center gap-3">
+                    <span>Principal Systems Architect &amp; Creator of CIEL</span>
+                    <a href="https://ciel.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono px-2.5 py-1 rounded bg-accent-cyan/15 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/25 transition-colors">
+                      ciel.theeducode.com ↗
+                    </a>
+                  </div>
                   <div className="flex flex-col sm:flex-row gap-4 text-sm font-mono text-white/50">
                     <span className="flex items-center gap-2">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>

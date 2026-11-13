@@ -69,11 +69,11 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <GlassCard glowColor="cyan" hoverEffect className="cursor-pointer group flex flex-col items-center text-center p-6" onClick={() => copyToClipboard('mohitrajdeo16deoghar@gmail.com', 'email')}>
+          <GlassCard glowColor="cyan" hoverEffect className="cursor-pointer group flex flex-col items-center text-center p-6" onClick={() => copyToClipboard('mohit@mohitrajdeo.in', 'email')}>
             <div className="w-12 h-12 rounded-full bg-accent-cyan/10 flex items-center justify-center text-accent-cyan mb-4 group-hover:scale-110 transition-transform">
               <Mail size={20} />
             </div>
-            <div className="text-white font-medium mb-1 truncate w-full text-sm">mohitrajdeo16deoghar@gmail.com</div>
+            <div className="text-white font-medium mb-1 truncate w-full text-sm">mohit@mohitrajdeo.in</div>
             <div className="text-xs text-white/50 flex items-center gap-1 group-hover:text-accent-cyan transition-colors">
               {copiedEmail ? <><Check size={12} /> Copied!</> : <><Copy size={12} /> Click to copy</>}
             </div>

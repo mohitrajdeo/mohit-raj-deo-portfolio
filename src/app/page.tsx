@@ -26,10 +26,10 @@ import {
 import { GlassCard } from "@/components/ui/GlassCard";
 
 const roles = [
-  "Backend Engineer",
-  "Distributed Systems Architect",
-  "Cloud Infrastructure Builder",
-  "AI/ML Practitioner",
+  "Principal Systems Architect",
+  "Creator of CIEL (ciel.theeducode.com)",
+  "Distributed Systems Engineer",
+  "Linux Kernel & MicroVM Virtualizer",
 ];
 
 export default function Home() {
@@ -46,10 +46,8 @@ export default function Home() {
     { date: "Aug 2023", title: "Started B.Tech CSE at LPU (CGPA: 9.09)", description: "Began university education and foundational engineering concepts." },
     { date: "Mar 2025", title: "Built AI System Monitoring Platform", description: "Created ML-powered monitoring system detecting compute waste." },
     { date: "Jun 2025", title: "Patent Published (Indian Patent Office)", description: "Patent #202511089783 published for real-time monitoring platform." },
-    { date: "Jul 2025", title: "AWS & Cloud Computing Certifications", description: "Validated cloud architecture capabilities with official credentials." },
-    { date: "Aug 2025", title: "Started Polypharmacy Optimization Research", description: "Applied advanced RL techniques to healthcare interaction models." },
-    { date: "Oct 2025", title: "Joined TheEduCode as Software Engineering Intern", description: "Started working on production distributed systems." },
-    { date: "Present", title: "Engineering EduLive Streaming Infrastructure", description: "Building distributed LiveKit media servers on AWS EKS." },
+    { date: "Oct 2025", title: "Architected CIEL Infrastructure (TheEduCode)", description: "Designed sub-38ms execution engine, XFS reflink DB branching, and KVM microVMs." },
+    { date: "Present", title: "Expanding CIEL & NEPHIS Systems Fabric", description: "Leasing high-throughput execution engines and zero-copy DB branches for automated testing." },
   ];
 
   return (
