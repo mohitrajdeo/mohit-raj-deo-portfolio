@@ -23,18 +23,18 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://mohitrajdeo.in"),
   title: {
-    default: "Mohit Raj Deo | Principal Systems Architect & Creator of CIEL",
+    default: "Mohit Raj Deo | Principal Systems Architect & Creator of NEPHIS",
     template: "%s | Mohit Raj Deo",
   },
   description:
-    "Official portfolio of Mohit Raj Deo — Principal Systems Architect & Creator of CIEL (ciel.theeducode.com). Architecting sub-38ms execution engines, zero-copy database branching, and Linux KVM microVMs. Published Patent #202511089783.",
+    "Official portfolio of Mohit Raj Deo — Principal Systems Architect & Creator of NEPHIS (nephis.theeducode.com). Architecting sub-38ms execution engines, zero-copy database branching, and Linux KVM microVMs. Published Patent #202511089783.",
   keywords: [
     "Mohit Raj Deo",
     "Mohit Raj",
     "Mohit Raj Dev",
     "Principal Systems Architect",
-    "Creator of CIEL",
-    "ciel.theeducode.com",
+    "Creator of NEPHIS",
+    "nephis.theeducode.com",
     "mohitrajdeo.in",
     "mohit@mohitrajdeo.in",
     "Linux KVM MicroVMs",
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Mohit Raj Deo | Principal Systems Architect & Creator of CIEL",
+    title: "Mohit Raj Deo | Principal Systems Architect & Creator of NEPHIS",
     description:
-      "Portfolio of Mohit Raj Deo — Principal Systems Architect & Creator of CIEL (ciel.theeducode.com). Architecting high-speed execution engines and zero-copy database branching.",
+      "Portfolio of Mohit Raj Deo — Principal Systems Architect & Creator of NEPHIS (nephis.theeducode.com). Architecting high-speed execution engines and zero-copy database branching.",
     url: "https://mohitrajdeo.in",
     siteName: "Mohit Raj Deo Entity Home",
     images: [
@@ -75,9 +75,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohit Raj Deo | Principal Systems Architect & Creator of CIEL",
+    title: "Mohit Raj Deo | Principal Systems Architect & Creator of NEPHIS",
     description:
-      "Principal Systems Architect & Creator of CIEL (ciel.theeducode.com) | NEPHIS / TheEduCode | Published Patent #202511089783",
+      "Principal Systems Architect & Creator of NEPHIS (nephis.theeducode.com) | NEPHIS / TheEduCode | Published Patent #202511089783",
     images: ["/avatar.jpeg"],
   },
   robots: {
@@ -101,11 +101,11 @@ const structuredData = {
   url: "https://mohitrajdeo.in",
   image: "https://mohitrajdeo.in/avatar.jpeg",
   email: "mohit@mohitrajdeo.in",
-  jobTitle: "Principal Systems Architect & Creator of CIEL",
+  jobTitle: "Principal Systems Architect & Creator of NEPHIS",
   worksFor: {
     "@type": "Organization",
     name: "NEPHIS (TheEduCode / Eduniketan Pvt Ltd)",
-    url: "https://ciel.theeducode.com",
+    url: "https://nephis.theeducode.com",
   },
   alumniOf: {
     "@type": "CollegeOrUniversity",
@@ -114,7 +114,7 @@ const structuredData = {
   },
   sameAs: [
     "https://mohitrajdeo.in",
-    "https://ciel.theeducode.com",
+    "https://nephis.theeducode.com",
     "https://github.com/MOHITRAJDEO12345",
     "https://www.linkedin.com/in/mohit-raj-deo/",
     "https://dev.to/mohit_raj_deo13158920",

@@ -51,9 +51,9 @@ export default function Experience() {
                 <div>
                   <h2 className="text-2xl md:text-3xl font-bold text-white/90 mb-2 font-heading">NEPHIS &bull; Eduniketan Private Limited (TheEduCode)</h2>
                   <div className="text-xl text-accent-cyan font-medium mb-4 flex items-center gap-3">
-                    <span>Principal Systems Architect &amp; Creator of CIEL</span>
-                    <a href="https://ciel.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono px-2.5 py-1 rounded bg-accent-cyan/15 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/25 transition-colors">
-                      ciel.theeducode.com ↗
+                    <span>Principal Systems Architect &amp; Creator of NEPHIS</span>
+                    <a href="https://nephis.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono px-2.5 py-1 rounded bg-accent-cyan/15 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/25 transition-colors">
+                      nephis.theeducode.com ↗
                     </a>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-4 text-sm font-mono text-white/50">

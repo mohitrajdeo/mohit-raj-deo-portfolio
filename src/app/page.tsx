@@ -27,7 +27,7 @@ import { GlassCard } from "@/components/ui/GlassCard";
 
 const roles = [
   "Principal Systems Architect",
-  "Creator of CIEL (ciel.theeducode.com)",
+  "Creator of NEPHIS (nephis.theeducode.com)",
   "Distributed Systems Engineer",
   "Linux Kernel & MicroVM Virtualizer",
 ];
@@ -46,8 +46,8 @@ export default function Home() {
     { date: "Aug 2023", title: "Started B.Tech CSE at LPU (CGPA: 9.09)", description: "Began university education and foundational engineering concepts." },
     { date: "Mar 2025", title: "Built AI System Monitoring Platform", description: "Created ML-powered monitoring system detecting compute waste." },
     { date: "Jun 2025", title: "Patent Published (Indian Patent Office)", description: "Patent #202511089783 published for real-time monitoring platform." },
-    { date: "Oct 2025", title: "Architected CIEL Infrastructure (TheEduCode)", description: "Designed sub-38ms execution engine, XFS reflink DB branching, and KVM microVMs." },
-    { date: "Present", title: "Expanding CIEL & NEPHIS Systems Fabric", description: "Leasing high-throughput execution engines and zero-copy DB branches for automated testing." },
+    { date: "Oct 2025", title: "Architected NEPHIS Infrastructure (TheEduCode)", description: "Designed sub-38ms execution engine, XFS reflink DB branching, and KVM microVMs." },
+    { date: "Present", title: "Expanding NEPHIS Systems Fabric", description: "Leasing high-throughput execution engines and zero-copy DB branches for automated testing." },
   ];
 
   return (
