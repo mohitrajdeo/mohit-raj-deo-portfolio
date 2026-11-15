@@ -154,6 +154,70 @@ export default function Projects() {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          {/* Project: Nephis */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="col-span-1 md:col-span-2"
+          >
+            <GlassCard glowColor="cyan" hoverEffect className="p-8 h-full flex flex-col justify-between border-accent-cyan/30">
+              <div>
+                <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+                  <div className="flex items-center gap-2">
+                    <div className="p-2 rounded-lg bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/20">
+                      <Cpu size={22} />
+                    </div>
+                    <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded border border-accent-cyan/20">Live Sovereign Fabric</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <a href="https://pypi.org/project/nephis/" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-accent-cyan hover:underline bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                      📦 PyPI v1.0.0
+                    </a>
+                    <a href="https://crates.io/crates/nephis-aletheia" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-accent-amber hover:underline bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                      🦀 crates.io v0.1.0
+                    </a>
+                    <a href="https://nephis.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-white/70 hover:text-white bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                      🌐 nephis.theeducode.com
+                    </a>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-white">Nephis: Hardware MicroVM Hypervisor &amp; Zero-Copy DB Fabric</h3>
+                <p className="text-white/70 text-sm leading-relaxed mb-6">
+                  Engineered and verified Nephis, a sovereign execution fabric delivering sub-12ms hardware-isolated microVMs (Thanaton) on bare AWS EC2 silicon, 31ms copy-on-write PostgreSQL 16 database branching (Mnemon-DB), and 1.09µs symbolic AST proofs (Aletheia). Features declarative <code>nephis.toml</code> manifests, zero-token Anycast preview routing, in-flight request replays, and a turnkey GitHub Action.
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">&lt; 12ms</span>
+                    <p className="text-xs text-white/50">MicroVM Cold Boot</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">31ms</span>
+                    <p className="text-xs text-white/50">PostgreSQL CoW Branch</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">1.09µs</span>
+                    <p className="text-xs text-white/50">AST Symbolic Proofs</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">$0.00</span>
+                    <p className="text-xs text-white/50">Scale-to-Zero Idle RAM</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40 pt-4 border-t border-white/10">
+                <span className="px-2 py-0.5 bg-black/40 rounded">Go (Golang)</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Rust</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Firecracker KVM</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">PostgreSQL 16</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">eBPF / AF_XDP</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Model Context Protocol (MCP)</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">AWS c8i.large</span>
+              </div>
+            </GlassCard>
+          </motion.div>
+
           {/* Project: Eschaton */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
