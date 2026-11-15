@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { GlassCard } from "@/components/ui/GlassCard";
-import { ExternalLink, Database, Cpu, Activity, ShieldCheck, Github, BrainCircuit, Terminal, Server, Layers } from "lucide-react";
+import { ExternalLink, Database, Cpu, Activity, ShieldCheck, Github, BrainCircuit, Terminal, Server, Layers, Cloud } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -341,6 +341,66 @@ export default function Projects() {
                 <span className="px-2 py-0.5 bg-black/40 rounded">Backblaze B2</span>
                 <span className="px-2 py-0.5 bg-black/40 rounded">Supabase REST</span>
                 <span className="px-2 py-0.5 bg-black/40 rounded">SSH Tunneling</span>
+              </div>
+            </GlassCard>
+          </motion.div>
+
+          {/* Project: Algions Cloud E-Commerce Microservice */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="col-span-1 md:col-span-2"
+          >
+            <GlassCard glowColor="cyan" hoverEffect className="p-8 h-full flex flex-col justify-between border-accent-cyan/30">
+              <div>
+                <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
+                  <div className="flex items-center gap-2">
+                    <div className="p-2 rounded-lg bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/20">
+                      <Cloud size={22} />
+                    </div>
+                    <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded border border-accent-cyan/20">Cloud Deployment &amp; CI/CD</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <a href="https://github.com/mohitrajdeo/algions-cloud-ecommerce-platform" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-accent-cyan hover:underline bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                      📦 GitHub Repo
+                    </a>
+                    <a href="https://al-ecommerce.mohitrajdeo.in/dashboard" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-white/70 hover:text-white bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
+                      🌐 Live Operations Console
+                    </a>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold mb-3 text-white">Cloud Deployment &amp; CI/CD: E-Commerce Platform</h3>
+                <p className="text-white/70 text-sm leading-relaxed mb-6">
+                  Engineered and deployed an idempotent, observable e-commerce microservice featuring strictly idempotent order checkout (zero double-deductions), transactional negative inventory locking, automated administrative audit logging, Prometheus exposition metrics (<code>/metrics</code>), Nginx reverse proxy with TLS termination, and automated chaos self-healing verification drills.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">0%</span>
+                    <p className="text-xs text-white/50">Duplicate Orders</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">409</span>
+                    <p className="text-xs text-white/50">Negative Stock Lock</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">9/9</span>
+                    <p className="text-xs text-white/50">Automated CI Tests</p>
+                  </div>
+                  <div>
+                    <span className="text-xl font-bold text-accent-cyan">TLS 1.3</span>
+                    <p className="text-xs text-white/50">Nginx Reverse Proxy</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40 pt-4 border-t border-white/10">
+                <span className="px-2 py-0.5 bg-black/40 rounded">Node.js 20 Non-Root</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Docker Compose</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">PostgreSQL 16</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Nginx SSL</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Prometheus Telemetry</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Chaos Testing</span>
               </div>
             </GlassCard>
           </motion.div>

@@ -108,7 +108,7 @@ export default function Home() {
           >
             <a
               href="#projects"
-              className="px-8 py-3 bg-white/10 glass-card-hover border border-accent-cyan/50 text-white rounded-md font-medium text-glow-cyan shadow-[0_0_15px_rgba(0,240,255,0.2)] text-center"
+              className="px-6 py-3 bg-white/10 glass-card-hover border border-accent-cyan/50 text-white rounded-md font-medium text-glow-cyan shadow-[0_0_15px_rgba(0,240,255,0.2)] text-center text-sm"
             >
               [Explore System Ops ↓]
             </a>
@@ -116,9 +116,17 @@ export default function Home() {
               href="/Mohit_Raj_Deo_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 border border-white/20 glass-card-hover text-white rounded-md font-medium hover:border-white transition-colors cursor-pointer text-center"
+              className="px-6 py-3 border border-white/20 glass-card-hover text-white rounded-md font-medium hover:border-accent-cyan hover:text-accent-cyan transition-colors cursor-pointer text-center text-sm flex items-center justify-center gap-2"
             >
-              [Download Resume]
+              <span>[DevOps Resume]</span>
+            </a>
+            <a
+              href="/Mohit_Raj_Deo_General_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 border border-white/20 glass-card-hover text-white rounded-md font-medium hover:border-accent-violet hover:text-accent-violet transition-colors cursor-pointer text-center text-sm flex items-center justify-center gap-2"
+            >
+              <span>[General SDE Resume]</span>
             </a>
           </motion.div>
         </div>
