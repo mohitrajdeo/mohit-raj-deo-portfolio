@@ -49,7 +49,7 @@ export default function Experience() {
               <div className="absolute inset-0 grid-overlay opacity-20 pointer-events-none"></div>
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 relative z-10">
                 <div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-white/90 mb-2 font-heading">NEPHIS &bull; Eduniketan Private Limited (TheEduCode)</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-white/90 mb-2 font-heading">NEPHIS Cloud Platform &bull; TheEduCode</h2>
                   <div className="text-xl text-accent-cyan font-medium mb-4 flex items-center gap-3">
                     <span>Principal Systems Architect &amp; Creator of NEPHIS</span>
                     <a href="https://nephis.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono px-2.5 py-1 rounded bg-accent-cyan/15 border border-accent-cyan/30 text-accent-cyan hover:bg-accent-cyan/25 transition-colors">

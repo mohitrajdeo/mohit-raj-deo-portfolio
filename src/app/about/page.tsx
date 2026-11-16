@@ -88,7 +88,7 @@ export default function About() {
               I'm <span className="text-accent-cyan font-bold">Mohit Raj Deo</span> — a Computer Science undergraduate at Lovely Professional University with deep technical passion for high-concurrency backends, distributed systems, and cloud infrastructure.
             </p>
             <p>
-              I don't just write code — I build production platforms. As a Software Engineer at <strong>Eduniketan Private Limited (TheEduCode)</strong>, I engineered our distributed code execution engine replacing single-server bottlenecks, reducing latency by <strong>~40%</strong> while doubling concurrent capacity with Redis caching and AWS Auto Scaling.
+              I don't just write code — I build production platforms. At <strong>TheEduCode</strong>, I architected the <strong>NEPHIS</strong> cloud platform and high-throughput execution engines, replacing single-server bottlenecks and reducing latency by <strong>~40%</strong> while doubling concurrent capacity with Redis caching and AWS Auto Scaling.
             </p>
             <p>
               I also designed a self-hosted Supabase alternative using <strong>Amazon Aurora (PostgreSQL)</strong> and <strong>Backblaze B2</strong>, slashing cloud storage overhead by <strong>~60%</strong> with zero downtime.

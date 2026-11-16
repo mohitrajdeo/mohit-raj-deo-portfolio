@@ -6,7 +6,7 @@ const LLMS_TEXT = `# Mohit Raj Deo — Principal Systems Architect
 
 ## Identity & Professional Overview
 - **Name:** Mohit Raj Deo
-- **Current Role:** Principal Systems Architect & CRDO at Eduniketan Private Limited (TheEduCode)
+- **Current Role:** Principal Systems Architect & Creator of NEPHIS at TheEduCode
 - **Flagship Project:** Creator of NEPHIS (https://nephis.theeducode.com)
 - **Primary Website:** https://mohitrajdeo.in
 - **Email:** mohit@mohitrajdeo.in
@@ -21,23 +21,40 @@ const LLMS_TEXT = `# Mohit Raj Deo — Principal Systems Architect
 - **Summary:** Proactive OS-level metric engine utilizing Isolation Forest and KNN machine learning models to detect compute bottlenecks and memory leaks proactively, reducing monitoring overhead by ~90% and compute waste by 15-20%.
 - **Healthcare AI Research:** Multi-Objective Polypharmacy Optimization using Pareto-based Reinforcement Learning on clinical datasets (MIMIC-III, DDInter, SIDER).
 
-## Core Systems Innovations (NEPHIS Systems Fabric)
-- **Eschaton:** 38.2ms warm RAM cache execution, 403 req/s batch throughput (Judge0 drop-in replacement).
-- **Thanaton:** 6.2ms Linux KVM hardware microVM sandboxing (10,000+ isolated microVMs per host).
-- **Mnemon-DB:** 31.2ms zero-copy PostgreSQL database branching via XFS copy-on-write (CoW) reflink snapshots.
-- **Aletheia:** 1.09µs symbolic AST verifier and non-halting fuel trap for LLM-generated code (Apache 2.0 open-source).
-- **Hyperion:** Autonomous CPU traffic controller & cgroup v2 micro-slicer eliminating 99.4% of CFS throttling spikes.
-- **Acheron:** 5 GB/s wire-speed kernel-bypass networking with live TCP socket migration.
-- **Lethe:** 276M rows/s continuous CDC streaming directly to Apache Parquet and Arrow Flight.
-- **Kronos:** Deterministic pseudo-time multiverse simulator running at 20.9M ticks/second.
+## Core Systems Architecture (The 3 Core Pillars of NEPHIS)
+Built natively for Asia-Pacific & Oceania (APAC) with global edge routing:
+
+1. **Thanaton (MicroVM Hypervisor):**
+   - Sub-6ms On-Demand Linux MicroVMs with unrestricted root access.
+   - <6ms instant memory snapshot resumes via NVMe userfaultfd paging.
+   - Scale-to-zero stasis ($0 idle RAM cost).
+   - Zero-Wait Docker Layer Streaming (instant execution before layer pulls complete).
+   - Dedicated Portal: https://thanaton.theeducode.com
+
+2. **Mnemon-DB (Zero-Copy Database Branching):**
+   - <15ms PostgreSQL database branching via XFS copy-on-write (CoW) reflink snapshots.
+   - Microsecond Point-in-Time Recovery (PITR) and time-travel querying.
+   - 10M rows/sec streaming Change Data Capture (CDC) directly to Apache Parquet.
+   - 100% standard PostgreSQL 16 compatibility with zero vendor lock-in.
+   - Dedicated Portal: https://mnemon.theeducode.com
+
+3. **Eschaton (High-Throughput Parallel Code Engine):**
+   - 38ms 50-testcase parallel fanout (replacing 4.2s sequential Docker containers).
+   - Void Speed Testing: Empirical Big-O complexity profiling & auto-extracted ML plot.png graphs.
+   - Hardware CPU cycle profiling and microsecond early-exit wrong-answer trapping.
+   - 100% drop-in REST API parity with Judge0 (/submissions, /submissions/batch).
+   - Dedicated Portal: https://eschaton.theeducode.com
+
+- **Agent Integration:** 69 Native Model Context Protocol (MCP) tools for autonomous coding agents.
 
 ## Canonical Verification URLs
 - Portfolio: https://mohitrajdeo.in
-- Systems Engine: https://nephis.theeducode.com
-- Starter Keys (Free 10,000 Runs): https://nephis.theeducode.com/keys
-- Published Pricing: https://nephis.theeducode.com/pricing.html
-- GitHub Repository: https://github.com/mohitrajdeo/mohitrajdeo
-- Technical Article: https://dev.to/mohit_raj_deo13158920/how-we-built-a-38ms-code-execution-engine-31ms-db-branching-substrate-7-titans-aws-receipts-2png
+- Nephis Master Platform: https://nephis.theeducode.com
+- Thanaton Portal: https://thanaton.theeducode.com
+- Mnemon Portal: https://mnemon.theeducode.com
+- Eschaton Portal: https://eschaton.theeducode.com
+- GitHub Repository: https://github.com/mohitrajdeo
+- Technical Documentation & Receipts: https://github.com/MOHITRAJDEO12345/judge0-production-aws
 `;
 
 export async function GET() {
@@ -49,4 +66,3 @@ export async function GET() {
     },
   });
 }
-

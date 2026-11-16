@@ -337,7 +337,7 @@ export default function Home() {
               <div className="absolute inset-0 grid-overlay opacity-20 pointer-events-none"></div>
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 relative z-10">
                 <div>
-                  <h2 className="text-2xl font-bold text-white/90 mb-2 font-heading">Eduniketan Private Limited (TheEduCode)</h2>
+                  <h2 className="text-2xl font-bold text-white/90 mb-2 font-heading">TheEduCode &bull; NEPHIS Cloud Platform</h2>
                   <div className="text-lg text-white/70 font-medium mb-4">Software Engineering</div>
                   <div className="flex flex-col sm:flex-row gap-4 text-xs font-mono text-white/50">
                     <span className="flex items-center gap-2">

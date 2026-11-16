@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     "XFS Reflink",
     "Distributed Systems Architect",
     "Lovely Professional University",
-    "Eduniketan",
     "TheEduCode",
     "NEPHIS",
+    "APAC Cloud Infrastructure",
     "Patent 202511089783",
     "Judge0",
     "PostgreSQL",
@@ -107,7 +107,7 @@ const structuredData = {
   jobTitle: "Principal Systems Architect & Creator of NEPHIS",
   worksFor: {
     "@type": "Organization",
-    name: "NEPHIS (TheEduCode / Eduniketan Pvt Ltd)",
+    name: "NEPHIS Cloud Platform (TheEduCode)",
     url: "https://nephis.theeducode.com",
   },
   alumniOf: {

@@ -175,34 +175,31 @@ export default function Projects() {
                     <a href="https://pypi.org/project/nephis/" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-accent-cyan hover:underline bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
                       📦 PyPI v1.0.0
                     </a>
-                    <a href="https://crates.io/crates/nephis-aletheia" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-accent-amber hover:underline bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
-                      🦀 crates.io v0.1.0
-                    </a>
                     <a href="https://nephis.theeducode.com" target="_blank" rel="noopener noreferrer" className="text-xs font-mono text-white/70 hover:text-white bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1">
                       🌐 nephis.theeducode.com
                     </a>
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-3 text-white">Nephis: Hardware MicroVM Hypervisor &amp; Zero-Copy DB Fabric</h3>
+                <h3 className="text-2xl font-bold mb-3 text-white">Nephis: APAC Cloud Compute &amp; Zero-Copy DB Platform</h3>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
-                  Engineered and verified Nephis, a sovereign execution fabric delivering sub-12ms hardware-isolated microVMs (Thanaton) on bare AWS EC2 silicon, 31ms copy-on-write PostgreSQL 16 database branching (Mnemon-DB), and 1.09µs symbolic AST proofs (Aletheia). Features declarative <code>nephis.toml</code> manifests, zero-token Anycast preview routing, in-flight request replays, and a turnkey GitHub Action.
+                  Architected and deployed Nephis, the first sovereign cloud platform engineered for Asia-Pacific &amp; Oceania (APAC) with global edge interconnects. Consolidates three specialized engines: sub-6ms hardware-isolated microVMs with zero-wait Docker layer streaming (Thanaton), &lt;15ms zero-copy PostgreSQL 16 branching (Mnemon-DB), and 38ms parallel code compilation (Eschaton). Backed by 69 native Model Context Protocol (MCP) tools for autonomous AI agents.
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">&lt; 12ms</span>
-                    <p className="text-xs text-white/50">MicroVM Cold Boot</p>
+                    <span className="text-xl font-bold text-accent-cyan">&lt; 6ms</span>
+                    <p className="text-xs text-white/50">MicroVM Snapshot Boot</p>
                   </div>
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">31ms</span>
+                    <span className="text-xl font-bold text-accent-cyan">&lt; 15ms</span>
                     <p className="text-xs text-white/50">PostgreSQL CoW Branch</p>
                   </div>
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">1.09µs</span>
-                    <p className="text-xs text-white/50">AST Symbolic Proofs</p>
+                    <span className="text-xl font-bold text-accent-cyan">38ms</span>
+                    <p className="text-xs text-white/50">Parallel Batch Fanout</p>
                   </div>
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">$0.00</span>
-                    <p className="text-xs text-white/50">Scale-to-Zero Idle RAM</p>
+                    <span className="text-xl font-bold text-accent-cyan">69 Tools</span>
+                    <p className="text-xs text-white/50">Native MCP Suite</p>
                   </div>
                 </div>
               </div>
@@ -210,10 +207,10 @@ export default function Projects() {
                 <span className="px-2 py-0.5 bg-black/40 rounded">Go (Golang)</span>
                 <span className="px-2 py-0.5 bg-black/40 rounded">Rust</span>
                 <span className="px-2 py-0.5 bg-black/40 rounded">Firecracker KVM</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">PostgreSQL 16</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">eBPF / AF_XDP</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">PostgreSQL 16 Reflink</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Docker Layer Streaming</span>
                 <span className="px-2 py-0.5 bg-black/40 rounded">Model Context Protocol (MCP)</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">AWS c8i.large</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">AWS ap-south-1</span>
               </div>
             </GlassCard>
           </motion.div>
@@ -231,28 +228,28 @@ export default function Projects() {
                   <div className="p-2 rounded-lg bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/20">
                     <Terminal size={22} />
                   </div>
-                  <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded">Go &amp; Linux Runtime</span>
+                  <span className="text-xs font-mono text-accent-cyan bg-accent-cyan/10 px-2 py-1 rounded">100% Judge0 Drop-In</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-3 text-white">Eschaton: High-Throughput Execution Engine</h3>
+                <h3 className="text-2xl font-bold mb-3 text-white">Eschaton: Parallel Execution &amp; Void Speed Testing</h3>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
-                  Engineered a high-performance code execution runner in Go designed for rapid, low-overhead evaluation of untrusted student programs. Features native Linux process isolation, robust worker pool orchestration, and sub-250ms cold execution latency.
+                  Engineered Eschaton, a bare-metal parallel execution engine replacing sequential container clusters. Evaluates 50 test cases simultaneously in 38ms (70x faster), features sub-0.8ms early exit wrong-answer trapping, empirical Big-O complexity profiling, hardware CPU cycle counts, and automated extraction of ML <code>plot.png</code> visualizations.
                 </p>
                 <div className="grid grid-cols-2 gap-3 mb-6 bg-white/5 p-4 rounded-xl border border-white/5 font-mono">
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">&lt; 250ms</span>
-                    <p className="text-xs text-white/50">Cold Execution Latency</p>
+                    <span className="text-xl font-bold text-accent-cyan">38ms</span>
+                    <p className="text-xs text-white/50">50-Case Parallel Batch</p>
                   </div>
                   <div>
-                    <span className="text-xl font-bold text-accent-cyan">High</span>
-                    <p className="text-xs text-white/50">Concurrency Worker Pool</p>
+                    <span className="text-xl font-bold text-accent-cyan">Void Testing</span>
+                    <p className="text-xs text-white/50">Big-O &amp; ML Plots</p>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-2 text-xs font-mono text-white/40 pt-4 border-t border-white/10">
                 <span className="px-2 py-0.5 bg-black/40 rounded">Go (Golang)</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">Linux</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">Process Sandboxing</span>
-                <span className="px-2 py-0.5 bg-black/40 rounded">Concurrency</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Judge0 Drop-In</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">Void Speed Testing</span>
+                <span className="px-2 py-0.5 bg-black/40 rounded">CPU Cycle Profiling</span>
               </div>
             </GlassCard>
           </motion.div>
