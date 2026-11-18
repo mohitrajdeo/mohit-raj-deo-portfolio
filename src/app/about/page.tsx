@@ -10,7 +10,7 @@ export default function About() {
     { date: "Mar 2025", title: "Engineered AI System Monitoring Platform", description: "Built ML-powered anomaly detection using Isolation Forest and KNN on OS metrics." },
     { date: "Jun 2025", title: "Patent Published (Indian Patent Office)", description: "Patent #202511089783 officially published for AI-driven real-time system monitoring." },
     { date: "Jul 2025", title: "Cloud Certifications (Oracle, AWS, NPTEL)", description: "Validated deep cloud architecture fundamentals with verified credentials." },
-    { date: "Aug 2025", title: "Multi-Objective Polypharmacy Optimization Research", description: "Applied Pareto-based Reinforcement Learning across clinical datasets (MIMIC-III, DDInter, SIDER)." },
+    { date: "Nov 2026", title: "Engineered Launchpad Autonomous Deployment Engine", description: "Architected self-healing container deployment engine with sub-4s automated rollbacks, multi-team isolation, and DORA delivery telemetry." },
     { date: "Oct 2025", title: "Software Engineer @ Eduniketan (TheEduCode)", description: "Architected distributed code execution sandboxes, self-hosted backend storage (Aurora + B2), and automated CI/CD." },
     { date: "Present", title: "Engineering EduLive Distributed Streaming Infrastructure", description: "Scaling LiveKit WebRTC media servers on AWS EC2 with Auto Scaling Groups for 500+ concurrent streams." },
   ];

@@ -444,29 +444,39 @@ export default function Home() {
             </div>
           </GlassCard>
 
-          {/* Research Card */}
-          <GlassCard glowColor="violet" hoverEffect className="p-8">
+          {/* Autonomous Deployment Platform Card */}
+          <GlassCard glowColor="cyan" hoverEffect className="p-8">
             <div className="flex flex-col md:flex-row justify-between gap-8">
               <div className="md:w-2/3">
-                <h3 className="text-2xl font-bold mb-3">Multi-Objective Polypharmacy Optimization</h3>
-                <div className="text-accent-violet font-mono text-xs mb-6">REINFORCEMENT LEARNING RESEARCH</div>
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold">Launchpad Autonomous CI/CD Engine</h3>
+                  <a 
+                    href="https://github.com/mohitrajdeo/acko-mohit-devops" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="p-1 rounded bg-white/5 hover:bg-white/10 text-white/70 hover:text-white transition-colors"
+                  >
+                    <ExternalLink size={16} />
+                  </a>
+                </div>
+                <div className="text-accent-cyan font-mono text-xs mb-6">SELF-HEALING DEPLOYMENT CONTROL PLANE • 40+ COMMITS</div>
                 <p className="text-white/70 leading-relaxed mb-6">
-                  Balancing therapeutic efficacy against ADR risk and tolerability using Pareto-optimal treatments across MIMIC-III and DDInter datasets.
+                  Engineered an autonomous container deployment platform with sub-4s automated rollbacks on health check failures (<code className="text-accent-cyan">startup_unreachable</code>), multi-team workspace isolation, concurrency locks, and real-time DORA delivery telemetry.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                   {['MIMIC-III', 'DDInter', 'RL', 'Pareto Opt.'].map(tag => (
-                     <span key={tag} className="px-3 py-1 bg-accent-violet/10 text-accent-violet rounded-full text-[10px] font-bold border border-accent-violet/20">{tag}</span>
+                   {['Docker Engine', 'Auto-Rollback <4s', 'DORA Telemetry', 'Multi-Team', 'MTTR 0.4m', '42 Deploys/Day'].map(tag => (
+                     <span key={tag} className="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full text-[10px] font-bold border border-accent-cyan/20">{tag}</span>
                    ))}
                 </div>
               </div>
               <div className="md:w-1/3 p-4 bg-white/5 rounded-xl border border-white/10 text-xs font-mono space-y-3">
                 <div className="text-white/40 border-b border-white/10 pb-2 flex justify-between">
-                  <span>SYSTEM_FLOW</span>
+                  <span>DEPLOYMENT_GATE</span>
                   <Activity size={12} />
                 </div>
-                <div className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-accent-cyan"></div> Patient Data</div>
-                <div className="flex items-center gap-2 border-l-2 border-white/10 ml-[5px] pl-3 py-1 bg-white/5">RL Agent Analysis</div>
-                <div className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-accent-amber"></div> Optimal Regimen</div>
+                <div className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-accent-cyan"></div> Blue/Green Spinup</div>
+                <div className="flex items-center gap-2 border-l-2 border-white/10 ml-[5px] pl-3 py-1 bg-white/5">3/3 Health Probe Checks</div>
+                <div className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-accent-amber"></div> Live / Auto-Rollback &lt;4s</div>
               </div>
             </div>
           </GlassCard>

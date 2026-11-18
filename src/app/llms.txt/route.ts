@@ -19,7 +19,7 @@ const LLMS_TEXT = `# Mohit Raj Deo — Principal Systems Architect
 - **Patent Title:** AI-Powered Real-Time System Monitoring and Optimization Platform
 - **Application No:** 202511089783 (Indian Patent Office, Published)
 - **Summary:** Proactive OS-level metric engine utilizing Isolation Forest and KNN machine learning models to detect compute bottlenecks and memory leaks proactively, reducing monitoring overhead by ~90% and compute waste by 15-20%.
-- **Healthcare AI Research:** Multi-Objective Polypharmacy Optimization using Pareto-based Reinforcement Learning on clinical datasets (MIMIC-III, DDInter, SIDER).
+- **Autonomous CI/CD & Deployment Engine (Launchpad):** Architected self-healing container deployment platform (https://github.com/mohitrajdeo/acko-mohit-devops) featuring sub-4s automated rollbacks on failed health checks, multi-tenant workspace isolation, live DORA metrics (MTTR: 0.4m), and private container registry orchestration.
 
 ## Core Systems Architecture (The 3 Core Pillars of NEPHIS)
 Built natively for Asia-Pacific & Oceania (APAC) with global edge routing:

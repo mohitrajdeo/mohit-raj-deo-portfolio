@@ -404,7 +404,7 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Research Project Section */}
+      {/* Autonomous CI/CD & Deployment Infrastructure Section */}
       <section className="container mx-auto px-6 py-12 relative z-10">
         <motion.h2 
           className="text-2xl font-bold mb-8 flex items-center gap-3 text-white"
@@ -412,8 +412,8 @@ export default function Projects() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          <Activity className="text-accent-violet" />
-          Research & Academic Systems
+          <Terminal className="text-accent-cyan" />
+          Autonomous CI/CD &amp; Deployment Infrastructure
         </motion.h2>
 
         <motion.div
@@ -422,33 +422,50 @@ export default function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <GlassCard glowColor="violet" hoverEffect className="p-8 lg:p-10">
+          <GlassCard glowColor="cyan" hoverEffect className="p-8 lg:p-10 border-accent-cyan/30">
             <div className="flex flex-col lg:flex-row justify-between items-start gap-8 mb-8">
               <div>
-                <h3 className="text-2xl font-bold mb-3 text-white">Multi-Objective Polypharmacy Optimization System</h3>
-                <div className="text-sm font-mono text-white/50 mb-6">Oct – Dec 2025</div>
+                <div className="flex items-center gap-3 mb-2 flex-wrap">
+                  <h3 className="text-2xl font-bold text-white">Launchpad: Autonomous Container Deployment Platform</h3>
+                  <a
+                    href="https://github.com/mohitrajdeo/acko-mohit-devops"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent-cyan/10 hover:bg-accent-cyan/20 text-accent-cyan text-xs font-mono border border-accent-cyan/30 transition-colors"
+                  >
+                    <Github size={13} />
+                    <span>mohitrajdeo/acko-mohit-devops</span>
+                    <ExternalLink size={12} />
+                  </a>
+                </div>
+                <div className="text-sm font-mono text-accent-cyan mb-6">Nov 2026 • 40 Production Commits • ACKO DevOps Buildathon</div>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  <span className="px-3 py-1 bg-accent-violet/10 text-accent-violet rounded-full text-xs font-semibold uppercase tracking-wider border border-accent-violet/20">Reinforcement Learning</span>
-                  <span className="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full text-xs font-semibold uppercase tracking-wider border border-accent-cyan/20">Healthcare AI</span>
-                  <span className="px-3 py-1 bg-white/5 text-white/70 rounded-full text-xs font-semibold uppercase tracking-wider border border-white/10">Pareto Optimization</span>
+                  <span className="px-3 py-1 bg-accent-cyan/10 text-accent-cyan rounded-full text-xs font-semibold uppercase tracking-wider border border-accent-cyan/20">Self-Healing CI/CD</span>
+                  <span className="px-3 py-1 bg-accent-amber/10 text-accent-amber rounded-full text-xs font-semibold uppercase tracking-wider border border-accent-amber/20">Auto-Rollback &lt;4s</span>
+                  <span className="px-3 py-1 bg-accent-violet/10 text-accent-violet rounded-full text-xs font-semibold uppercase tracking-wider border border-accent-violet/20">DORA Telemetry</span>
+                  <span className="px-3 py-1 bg-white/5 text-white/70 rounded-full text-xs font-semibold uppercase tracking-wider border border-white/10">Multi-Team Isolation</span>
                 </div>
               </div>
 
               <div className="lg:w-1/3 w-full bg-space-900 border border-white/10 rounded-xl p-5 text-sm">
-                <h4 className="font-bold mb-3 text-white/80 border-b border-white/10 pb-2">Datasets Integrated</h4>
-                <ul className="space-y-3">
+                <h4 className="font-bold mb-3 text-white/80 border-b border-white/10 pb-2">Delivery Metrics</h4>
+                <ul className="space-y-3 font-mono text-xs">
                   <li className="flex justify-between items-center">
-                    <span className="text-white/90">MIMIC-III</span>
-                    <span className="text-white/40 text-xs text-right">Clinical patient records</span>
+                    <span className="text-white/90">Mean Time to Recovery (MTTR)</span>
+                    <span className="text-accent-cyan font-bold text-right">0.4 min (&lt;4s auto)</span>
                   </li>
                   <li className="flex justify-between items-center">
-                    <span className="text-white/90">DDInter</span>
-                    <span className="text-white/40 text-xs text-right">Drug interactions</span>
+                    <span className="text-white/90">Deployment Throughput</span>
+                    <span className="text-accent-amber font-bold text-right">42 deploys/day</span>
                   </li>
                   <li className="flex justify-between items-center">
-                    <span className="text-white/90">SIDER</span>
-                    <span className="text-white/40 text-xs text-right">Side effect resource</span>
+                    <span className="text-white/90">Lead Time for Changes</span>
+                    <span className="text-accent-violet font-bold text-right">0.5 min</span>
+                  </li>
+                  <li className="flex justify-between items-center">
+                    <span className="text-white/90">Repository Activity</span>
+                    <span className="text-white font-bold text-right">40 Verified Commits</span>
                   </li>
                 </ul>
               </div>
@@ -456,39 +473,44 @@ export default function Projects() {
 
             <div className="text-white/70 leading-relaxed mb-10 space-y-4">
               <p>
-                Polypharmacy — the concurrent administration of multiple medications — creates exponential combinatorial reaction spaces that human clinicians cannot exhaustively evaluate. This research formulates a reinforcement learning agent using Pareto-based multi-objective optimization to balance three conflicting clinical goals: maximizing therapeutic efficacy, minimizing adverse drug reaction (ADR) risk, and preserving patient tolerability.
+                Microservice rollouts in high-velocity teams face critical failure modes: broken environment variables, startup crashes causing outages, and manual rollbacks that take minutes or hours. Launchpad solves this with an autonomous control plane that orchestrates zero-downtime blue/green Docker deployments with automated self-healing.
               </p>
               <p>
-                By harmonizing three extensive clinical repositories (MIMIC-III, DDInter, and SIDER), our RL model explores non-dominated Pareto treatment frontiers, delivering reliable decision-support recommendations.
+                The platform features a 3-probe health check gate that instantly detects <code className="text-accent-cyan">startup_unreachable</code>, <code className="text-accent-cyan">never_started</code>, or crash-looping containers, rolling back traffic to the previous healthy image in under 4 seconds. It enforces strict team workspace isolation (team1 vs team2), concurrency deployment queue locks, per-release environment variable snapshotting, and real-time DORA telemetry calculation.
               </p>
             </div>
 
             {/* Architecture Flow Diagram */}
-            <div className="bg-space-800/50 rounded-lg p-6 overflow-x-auto">
+            <div className="bg-space-800/50 rounded-lg p-6 overflow-x-auto border border-white/10">
               <div className="min-w-[700px] flex items-center justify-between font-mono text-xs text-white/80">
                 <div className="flex flex-col items-center gap-2">
-                  <Database size={24} className="text-white/50" />
-                  <span>Patient Data</span>
+                  <Server size={24} className="text-white/50" />
+                  <span>Private Registry</span>
+                  <span className="text-[10px] text-white/40">registry:2</span>
                 </div>
                 <div className="h-[2px] w-12 bg-white/20 relative"><div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-l-4 border-t-4 border-b-4 border-l-white/50 border-t-transparent border-b-transparent"></div></div>
                 <div className="flex flex-col items-center gap-2 p-3 bg-white/5 rounded border border-white/10">
-                  <Cpu size={24} className="text-accent-cyan" />
-                  <span>Interaction Model</span>
+                  <Layers size={24} className="text-accent-violet" />
+                  <span>Queue Lock</span>
+                  <span className="text-[10px] text-white/40">Concurrency Safe</span>
                 </div>
                 <div className="h-[2px] w-12 bg-white/20 relative"><div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-l-4 border-t-4 border-b-4 border-l-white/50 border-t-transparent border-b-transparent"></div></div>
-                <div className="flex flex-col items-center gap-2 p-4 bg-accent-violet/10 rounded-xl border border-accent-violet/30 shadow-[0_0_15px_rgba(139,92,246,0.2)]">
-                  <BrainCircuit size={28} className="text-accent-violet" />
-                  <span className="font-bold text-accent-violet">RL Agent</span>
+                <div className="flex flex-col items-center gap-2 p-4 bg-accent-cyan/10 rounded-xl border border-accent-cyan/30 shadow-[0_0_15px_rgba(0,240,255,0.2)]">
+                  <Terminal size={28} className="text-accent-cyan" />
+                  <span className="font-bold text-accent-cyan">Launchpad Engine</span>
+                  <span className="text-[10px] text-accent-cyan/70">Blue/Green Handoff</span>
                 </div>
                 <div className="h-[2px] w-12 bg-white/20 relative"><div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-l-4 border-t-4 border-b-4 border-l-white/50 border-t-transparent border-b-transparent"></div></div>
                 <div className="flex flex-col items-center gap-2 p-3 bg-white/5 rounded border border-white/10">
                   <Activity size={24} className="text-accent-amber" />
-                  <span>Pareto Opt.</span>
+                  <span>3-Probe Health Gate</span>
+                  <span className="text-[10px] text-white/40">Port &amp; Endpoint</span>
                 </div>
                 <div className="h-[2px] w-12 bg-white/20 relative"><div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 border-l-4 border-t-4 border-b-4 border-l-white/50 border-t-transparent border-b-transparent"></div></div>
                 <div className="flex flex-col items-center gap-2 text-glow-cyan text-white">
                   <ShieldCheck size={28} className="text-accent-cyan" />
-                  <span className="font-bold">Regimens</span>
+                  <span className="font-bold">Auto-Rollback &lt;4s</span>
+                  <span className="text-[10px] text-accent-cyan/70">Zero Downtime</span>
                 </div>
               </div>
             </div>
